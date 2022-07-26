@@ -84,7 +84,7 @@ header{
 .header-stiker{
     height: 150px;
     width: 150px;
-    background-color: red;
+    background-color: #bf2222;
     font-family: 'Bebas Neue', cursive;
     display: flex;
     flex-direction: column;
@@ -203,4 +203,56 @@ header{
     padding-left: 10px;
     font-family: 'Bebas Neue', cursive;
 
+}
+
+/* Style Choose and Enjoy Part */
+
+.choose-heading h6{
+    background-color: #ffc657;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+.choose-heading h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    color: #3d2514;
+    padding: 10px 0;
+}
+
+.choose-heading p{
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.big-img{
+    width: 80%;
+}
+
+.choose-item{
+    margin-top: 30px;
+}
+
+.choose-item h3{
+    font-size: 35px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.choose-item p{
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 10px 0;
+}
+
+.order-now{
+    background-color: #bf2222;
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    padding: 8px 20px;
+    margin-top: 10px;
 }
