@@ -1,0 +1,124 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* My Fonts are */
+
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/* Common Css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style Header Part */
+
+header{
+    background-color: #ffc657;
+    min-height: 100vh;
+    position: relative;
+}
+
+.custom-nav{
+    padding-top: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    margin-left: 35px;
+}
+
+.header-text h5{
+    color: #3d2514;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    border: 3px dashed #3d2514;
+    padding-left: 10px;
+}
+.header-text h1{
+    color: #3d2514;
+    font-size: 115px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+}
+.header-text h2{
+    color: #3d2514;
+    font-size: 56px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+}
+
+.phone{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: baseline;
+    position: absolute;
+    top: 20px;
+    right: 125px;
+}
+
+.phone p{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.header-stiker{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 55%;
+    bottom: 7%;
+}
+
+.header-stiker h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+.header-stiker h2 sub{
+    color: #fff;
+    font-size: 25px;
+}
+
+.header-stiker h5{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.stiker-dot{
+    height: 130px;
+    width: 130px;
+    border: 2px dashed #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
